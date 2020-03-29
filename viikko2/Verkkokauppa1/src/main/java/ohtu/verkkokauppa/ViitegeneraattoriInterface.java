@@ -1,7 +1,6 @@
 package ohtu.verkkokauppa;
 
-
-public interface ViitegeneraattoriInterface{
+public interface ViitegeneraattoriInterface {
 
     int uusi();
 }

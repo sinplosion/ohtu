@@ -8,11 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Kauppa kauppa = ctx.getBean(Kauppa.class);
-
 
         // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
         kauppa.aloitaAsiointi();

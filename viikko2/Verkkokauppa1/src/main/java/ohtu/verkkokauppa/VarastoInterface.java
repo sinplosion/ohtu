@@ -1,6 +1,5 @@
 package ohtu.verkkokauppa;
 
-
 public interface VarastoInterface {
 
     Tuote haeTuote(int id);

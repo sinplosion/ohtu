@@ -14,9 +14,9 @@ public class Tuote {
 
     @Override
     public boolean equals(Object o) {
-        Tuote t = (Tuote)o;
-        
-        return id==t.id;
+        Tuote t = (Tuote) o;
+
+        return id == t.id;
     }
 
     public int getId() {
@@ -30,6 +30,6 @@ public class Tuote {
     @Override
     public String toString() {
         return nimi;
-    }            
-    
+    }
+
 }
