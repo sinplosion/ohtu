@@ -49,11 +49,6 @@ public class Stepdefs {
         logInWith(username, password);
     }   
     
-    @Then("system will respond {string}")
-    public void systemWillRespond(String pageContent) throws Throwable {
-        assertTrue(driver.getPageSource().contains(pageContent));
-    }
-    
     @After
     public void tearDown(){
         driver.quit();
